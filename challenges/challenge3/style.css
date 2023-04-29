@@ -1,0 +1,283 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.section1{
+    width: 100%;
+    height: 100vh;
+    background-color: #fbf8f3;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+/* navbar section */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.heading{
+    font-size: 2rem;
+    font-style: italic;
+    color: #1DA1F2;
+    font-weight: 600;
+}
+.menu ul{
+    display: flex;
+}
+.menu ul>li{
+    margin-right: 40px;
+    list-style: none;
+  
+}
+.menu{
+    display: flex;
+    align-items: center;
+}
+li>a{
+    text-decoration: none;
+    color: #595959;
+    font-size: 1.3rem;
+}
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #1DA1F2;
+    font-size: 1.3rem;
+    border-radius: 5px;
+    border: none;
+}
+button>p{
+    color: white;
+    margin-right: 15px;
+}
+button>img{
+    margin: 1px 15px;
+    transform: scale(1.3);
+}
+/* navbar section */
+
+/* container secrtion */
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.con-content{
+    width: 39%;
+}
+.con-header{
+font-size: 3.3rem;
+}
+.con-para p{
+    font-size: 1.5rem;
+    color: #595959;
+}
+.con-btn{
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    margin-bottom: 2.5rem;
+}
+.con-pro img{
+    width:260px;
+}
+
+.con-btn a{
+    font-size: 1.5rem;
+    margin-left: 1.5rem;
+    text-decoration: none;
+    text-align: center;
+    color: #1f7898;
+}
+.con-btn i{
+    font-size: 1.2rem;
+    margin-left: 10px;
+    color: #1f7898;
+}
+.con-para2{
+    margin-top: 2rem;
+}
+.con-para2 h5,p{
+    display: inline;
+    font-size: 1.5rem;
+    /* letter-spacing: 1px; */
+    color: #595959;
+    line-height: 2rem;
+}
+.con-para2 div>h5{
+    color: #1f7898!important;
+}
+/* container secrtion */
+
+/* section2 open  */
+.section2{
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;    
+}
+.text-section2{
+    font-size: 2rem;
+    margin-top: 5rem;
+    margin-bottom: 2.5rem;
+    
+}
+.section2 .content-card{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.card{
+    width: 95%;
+    padding: 2rem;
+    border: 1px solid #8e8e8e;
+    border-radius: 0.5rem;;
+    text-align: justify;
+    margin-bottom: 5%;
+}
+.card i{
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+.card h2{
+    margin-bottom: 1.2rem;
+}
+.card p{
+    font-size: 1.5rem;
+}
+/* section2 close  */
+/* section3  */
+.section3{
+    width: 100%;
+    background-color: #d7f5f5;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.section3 .text-section3{
+    font-size: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 2.5rem;
+    padding-top: 4rem;
+}
+.card-sec3{
+    display: grid;
+    grid-template-columns: auto auto auto;
+padding-bottom: 4rem;
+}
+.customer-card{
+    width: 95%;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 5px;
+    height: fit-content;
+}
+
+.heading2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.heading2 .info{
+    display: flex;
+    align-items: center;
+}
+.name >p{
+    font-size: 1.3rem;
+    color: #595959;
+}
+.info .profile img{
+    width: 5rem;
+    margin-right: 1rem;
+}
+.cus-text{
+    font-size: 1.5rem;
+    color: #595959;
+    margin-bottom: 2rem;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer div{
+    display: flex;
+    align-items: center;
+}
+.footer div .like{
+    margin-right: 0.5rem;
+}
+.footer div>.num , .date{
+    font-size: 1.3rem;
+    color: #595959;
+}
+
+/* customer say it  */
+.section4{
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    height: fit-content;
+}
+.container2{
+    width: 45%;
+    margin:auto;
+    background-color: #fbf8f3;
+    padding: 4%;
+    border: 2xp solid rgb(255, 191, 0);
+}
+.container2>p{
+    font-size: 2rem;
+}
+.price{
+    margin-top: 0.5rem;
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 1rem;
+}
+.price>h1{
+    font-size: 5rem;
+}
+.price>p{
+    font-size: 2rem;
+}
+.check-section{
+    margin-top: 1rem;
+    padding-bottom:1.5rem ;
+}
+.checkmark{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1.5rem;
+    align-items: center;
+}
+
+.checkmark>img{
+    margin-right: 1rem;
+    width: 1.8rem;
+}
+.checkmark1{
+    display: flex;
+    align-items: flex-start;
+}
+.checkmark1>img{
+    margin-right: 1rem;
+    width: 2rem;
+}
+.prc-content{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+}
+.prc-content .header4{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+.con-btn1 button{
+    width: 100%;
+    height: fit-content;
+    margin-top: 1rem;
+    margin-bottom: 0;
+}

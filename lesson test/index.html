@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: cadetblue;
+        }
+        .content{
+            background-color: white;
+            text-align: center;
+            padding: 50px;
+            width: 400px;
+            height: 300px;
+            margin: auto;
+            margin-top: 200px;
+            border-radius: 20px;
+        }
+        .title{
+            font-size: 30px;
+            font-weight: bold;
+        }
+        .title::before{
+            content: "Moe Yan";
+        }
+        .title::after{
+            content: "fuck";
+        }
+        .para{
+            padding-top: 30px;
+        }
+        .btn{
+            width: 70%;
+            padding: 10px;
+            border: none;
+            background-color: rgb(53, 175, 134);
+            border-radius: 10px;
+            font-size: 20px;
+            margin-top: 20px;
+        }
+        .btn:hover{
+            background-color: rgb(125, 125, 125);
+            color: rgb(255, 255, 255);
+            transition: 0.3s;
+        }
+        .content:hover{
+            background-color: black;
+            color: white;
+            transition: 0.5s;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <div class="title">
+            Hello Everyone !
+        </div>
+        <p class="para">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis delectus voluptatibus nemo odit, quas id officiis incidunt, quod dicta, accusamus commodi cum? Esse explicabo culpa placeat ut quisquam numquam error.lorem
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint totam nemo recusandae dolorum maiores voluptates dolor cum nam, sapiente voluptas saepe? Dolorum porro accusamus impedit vitae accusantium neque consectetur assumenda!
+        </p>
+        <button class="btn">Register</button>
+    </div>
+</body>
+</html>
