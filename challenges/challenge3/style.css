@@ -1,11 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;600;700;800;900&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
 }
 .section1{
     width: 100%;
-    height: 100vh;
+    height: 115vh;
     background-color: #fbf8f3;
     padding-left: 10%;
     padding-right: 10%;
@@ -19,7 +21,7 @@ nav{
     padding-bottom: 40px;
 }
 .heading{
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-style: italic;
     color: #1DA1F2;
     font-weight: 600;
@@ -30,7 +32,7 @@ nav{
 .menu ul>li{
     margin-right: 40px;
     list-style: none;
-  
+    font-weight: 300;
 }
 .menu{
     display: flex;
@@ -39,7 +41,7 @@ nav{
 li>a{
     text-decoration: none;
     color: #595959;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 }
 button{
     display: flex;
@@ -47,13 +49,20 @@ button{
     align-items: center;
     padding: 20px;
     background-color: #1DA1F2;
-    font-size: 1.3rem;
     border-radius: 5px;
     border: none;
+    transition: 0.4s;
+}
+button:hover{
+
+    transform: scale(1.05);
+    box-shadow: 3px 3px 20px #8e8e8e;
 }
 button>p{
     color: white;
     margin-right: 15px;
+    font-size: 1.2rem;
+    font-weight: 600;
 }
 button>img{
     margin: 1px 15px;
@@ -68,13 +77,19 @@ button>img{
 }
 .con-content{
     width: 39%;
+    transition: 0.5s;
+}
+.con-content:hover{
+    transform: scale(1.04);
+    box-shadow: 8px 8px 20px #abd6f0;
 }
 .con-header{
-font-size: 3.3rem;
+font-size: 3rem;
 }
 .con-para p{
-    font-size: 1.5rem;
-    color: #595959;
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: #737373;
 }
 .con-btn{
     margin-top: 2rem;
@@ -87,14 +102,14 @@ font-size: 3.3rem;
 }
 
 .con-btn a{
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     margin-left: 1.5rem;
     text-decoration: none;
     text-align: center;
     color: #1f7898;
 }
 .con-btn i{
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     margin-left: 10px;
     color: #1f7898;
 }
@@ -103,9 +118,10 @@ font-size: 3.3rem;
 }
 .con-para2 h5,p{
     display: inline;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
+    font-weight: 300;
     /* letter-spacing: 1px; */
-    color: #595959;
+    color: #737373;
     line-height: 2rem;
 }
 .con-para2 div>h5{
@@ -136,16 +152,22 @@ font-size: 3.3rem;
     border-radius: 0.5rem;;
     text-align: justify;
     margin-bottom: 5%;
+    transition: 0.5s;
+}
+.card:hover{
+    transform: scale(1.05);
+    box-shadow: 8px 8px 10px rgb(183, 183, 183);
 }
 .card i{
     font-size: 3rem;
     margin-bottom: 2rem;
 }
 .card h2{
+    font-size: 1.5rem;
     margin-bottom: 1.2rem;
 }
 .card p{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 /* section2 close  */
 /* section3  */
@@ -172,6 +194,12 @@ padding-bottom: 4rem;
     padding: 2rem;
     border-radius: 5px;
     height: fit-content;
+    transition: 0.5s;
+}
+.customer-card:hover{
+    transform: scale(1.05);
+    box-shadow: 8px 8px 20px #55b8f6;
+
 }
 
 .heading2{
@@ -184,18 +212,23 @@ padding-bottom: 4rem;
     display: flex;
     align-items: center;
 }
-.name >p{
+.name >h2{
     font-size: 1.3rem;
+}
+.name >p{
+    font-size: 1rem;
     color: #595959;
 }
 .info .profile img{
     width: 5rem;
     margin-right: 1rem;
 }
-.cus-text{
-    font-size: 1.5rem;
+.cus-text>p{
+    font-size: 1.2rem;
     color: #595959;
-    margin-bottom: 2rem;
+}
+.cus-text{
+    margin-bottom: 1rem;
 }
 .footer{
     display: flex;
@@ -209,8 +242,8 @@ padding-bottom: 4rem;
 .footer div .like{
     margin-right: 0.5rem;
 }
-.footer div>.num , .date{
-    font-size: 1.3rem;
+.footer div>.num , .date>p{
+    font-size: 1.2rem;
     color: #595959;
 }
 
@@ -220,16 +253,28 @@ padding-bottom: 4rem;
     padding-left: 10%;
     padding-right: 10%;
     height: fit-content;
+    padding-bottom: 4%;
+    
 }
 .container2{
     width: 45%;
     margin:auto;
     background-color: #fbf8f3;
-    padding: 4%;
-    border: 2xp solid rgb(255, 191, 0);
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 3%;
+    padding-bottom: 2%;
+    border: 1px solid rgb(255, 191, 0);
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.container2:hover{
+    transform: scale(1.04);
+    box-shadow: 5px 5px 20px gray;
 }
 .container2>p{
     font-size: 2rem;
+    
 }
 .price{
     margin-top: 0.5rem;
@@ -246,6 +291,7 @@ padding-bottom: 4rem;
 .check-section{
     margin-top: 1rem;
     padding-bottom:1.5rem ;
+    
 }
 .checkmark{
     display: flex;
@@ -280,4 +326,25 @@ padding-bottom: 4rem;
     height: fit-content;
     margin-top: 1rem;
     margin-bottom: 0;
+}
+/* footer section  */
+.footer-sec{
+    padding-left: 5%;
+    padding-right: 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #d7f5f5;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.contact{
+   display: flex;
+    align-items: center;    
+}
+.contact-text>a{
+    margin-left: 3rem;
+    font-size: 1.3rem;
+    text-decoration: none;
+    color: black;
 }
